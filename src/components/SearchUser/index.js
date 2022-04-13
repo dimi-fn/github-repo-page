@@ -11,6 +11,7 @@ export default function SearchUser() {
     const error = useSelector(state => state.error);
     const dispatch = useDispatch();
 
+
     const renderOutput = repoResults.map(result => (
         <RenderResults key={result.id} data={result} />
     ));
@@ -21,10 +22,12 @@ export default function SearchUser() {
 
     return (
         <>
+        
         {username && <h2>Username: '{username}' | Number of repositories found: {repoResults.length}</h2>}
-
+        
         <section className="">
             {
+                
                 loading ?
                 <h2><i>Loading the Repo Results . . .</i></h2>
                 :

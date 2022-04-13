@@ -1,9 +1,58 @@
-input{
-    width: 220px;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap');
+
+body {
+    background-color: rgb(33, 33, 33);
+    color: white;
+    margin: 5em;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+}
+
+a:link, a:visited {
+    color: black;
+    background-color: white;
+    border: 2px wheat;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 20px
+}
+
+a:hover, a:active {
+    background-color: grey;
+    color: white;
+}
+
+.repoCards {
+    display: grid;
+    background-color: black;
+    margin: auto;
+    padding: 1em;
+    border-style: double;
+    border-radius: 10px;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+
+    
+    /* border-color: white; */
 }
 
 /* the search button */
-/* .submit-search{
-    
-} */
+.submit-search{
+    height: 40px;
+}
+
+.searchbar{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 

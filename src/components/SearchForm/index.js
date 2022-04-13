@@ -26,7 +26,7 @@ export default function SearchForm() {
             <h1>Welcome to the GitHub Repo Search!</h1>
             <p>Give a GitHub username and get a list of the associated repositories! In addition, you can get extra information regarding the repository's creation date, the stars, the number of forks, as well as the number of issues for those repositories!</p>
             <br></br>
-                <form 
+                <form class="searchbar"
                     onSubmit={handleSubmit}
                     role="" 
                     aria-label="Search Form" 

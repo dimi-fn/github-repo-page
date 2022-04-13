@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function RenderResults({data}) {
     return (
-        <section role="" className="">
+        <section role="" className="repoCards">
 
             {/* 
             - html_url: the url of the repo
