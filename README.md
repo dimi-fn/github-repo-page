@@ -20,7 +20,7 @@ Users can also get information about the following repository's pieces of inform
 # Installation & Usage
 
 * Clone the repo or download the files
-* Navigate to the root project directory, and run:
+* Navigate to the root project directory of the *github-repo-page* folder, and run:
     * `npm install` to install packages and dependencies
     * `npm run dev` to run the project in development mode
     * `npm run build` to run the project in production mode
