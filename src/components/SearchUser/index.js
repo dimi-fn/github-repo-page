@@ -21,7 +21,7 @@ export default function SearchUser() {
 
     return (
         <>
-        {username && <h2>Username: {username}, number of repositories: ({repoResults.length})</h2>}
+        {username && <h2>Username: '{username}' | Number of repositories found: {repoResults.length}</h2>}
 
         <section className="">
             {

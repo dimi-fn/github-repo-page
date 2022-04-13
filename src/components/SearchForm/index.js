@@ -24,7 +24,7 @@ export default function SearchForm() {
     return (
         <section className="">
             <h1>Welcome to the GitHub Repo Search!</h1>
-            <p>Give a GitHub username and get a list of the repositories and extra information linked to that account!</p>
+            <p>Give a GitHub username and get a list of the associated repositories! In addition, you can get extra information regarding the repository's creation date, the stars, the number of forks, as well as the number of issues for those repositories!</p>
             <br></br>
                 <form 
                     onSubmit={handleSubmit}
