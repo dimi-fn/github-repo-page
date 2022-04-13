@@ -31,7 +31,7 @@ export default function SearchForm() {
                     role="" 
                     aria-label="Search Form" 
                 >
-                    <input 
+                    <input required
                         type="search"
                         onChange={updateInput}
                         aria-label="GitHub username" 

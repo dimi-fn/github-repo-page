@@ -15,9 +15,9 @@ export const getRepos = (gitUsername) => {
 
         } catch (err) {
             dispatch({ type: 'SET_ERROR',
-                        payload: err.message 
+                        payload: `${err.message}. Please fill out a valid GitHub username!`
                     })
-            console.warn(`Got error while dispatching, error: ${err.message}`);                    
+            console.warn(`Got error while dispatching, error: ${err.message}`);  
         }
     }
 
