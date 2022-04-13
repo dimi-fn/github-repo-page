@@ -4,7 +4,7 @@
 
 # Project Description
 
-This is a project about constructing a minimalist version of a GitHub repository page.
+This is a project about constructing a minimalist version of a GitHub repository page, and it is currently hosted on [Netlify](https://github-repos.netlify.app/).
 
 
 # Functionalities
