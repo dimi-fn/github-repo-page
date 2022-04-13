@@ -35,11 +35,11 @@ export default function SearchForm() {
                         type="search"
                         onChange={updateInput}
                         aria-label="GitHub username" 
-                        className=""
+                        className="search-repos"
                         placeholder="Type a valid GitHub Username..." 
                         value={username}
                     />
-                    <button type="submit" className=''>Search</button>
+                    <button type="submit" className='submit-search'>Search</button>
                 </form>
         </section>
     );
