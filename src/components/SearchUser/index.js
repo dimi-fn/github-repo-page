@@ -6,12 +6,12 @@ import { getRepos } from '../../actions';
 
 export default function SearchUser() {
     const username = useSelector(state => state.username);
-    const results = useSelector(state => state.results);
+    const repoResults = useSelector(state => state.repoResults);
     const loading = useSelector(state => state.loading);
     const error = useSelector(state => state.error);
     const dispatch = useDispatch();
 
-    const renderOutput = results.map(result => (
+    const renderOutput = repoResults.map(result => (
         <RenderResults key={result.id} data={result} />
     ));
 
@@ -21,7 +21,7 @@ export default function SearchUser() {
 
     return (
         <>
-        {username && <h2>Username: {username}, number of repositories: ({results.length})</h2>}
+        {username && <h2>Username: {username}, number of repositories: ({repoResults.length})</h2>}
 
         <section className="">
             {

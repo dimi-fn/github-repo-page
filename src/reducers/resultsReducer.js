@@ -16,12 +16,13 @@ const resultsReducer = (state = initState, action) => {
         case 'LOADED_REPOS':
             return { ...state,
                     repoResults: action.payload,
-                    loading: false }; // error: false
+                    loading: false,
+                    error:false };
 
         case 'SET_ERROR':
             return { ...state,
-                    error: action.payload,
-                    loading: false};
+                    loading: false,
+                    error: action.payload};
 
         default: 
             return state; 
