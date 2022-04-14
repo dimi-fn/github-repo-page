@@ -23,7 +23,7 @@ Users can also get information about the following repository's pieces of inform
 * Navigate to the root project directory of the *github-repo-page* folder, and run:
     * `npm install` to install packages and dependencies
     * `npm run dev` to run the project in development mode
-    * `npm run build` to run the project in production mode
+    * `npm run build` to run the project in production mode by generating a bundle.js file hosted on a *build* directory
 * Open your browser and navigate to localhost:8080 to use the app    
 
 ----
