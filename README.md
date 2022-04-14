@@ -33,9 +33,10 @@ Users can also get information about the following repository's pieces of inform
 * HTML, CSS, JavaScript
 * Webpack, React, Redux
 
-# Challenges
+# Future features
 
 * Testing implementation
+* Mobile responsiveness
 
 # Licence
 
