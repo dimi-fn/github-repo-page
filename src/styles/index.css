@@ -47,6 +47,7 @@ a:hover, a:active {
 /* the search button */
 .submit-search{
     height: 40px;
+    cursor: pointer;
 }
 
 .searchbar{
@@ -55,3 +56,6 @@ a:hover, a:active {
     justify-content: center;
 }
 
+.p-click-repo{
+    text-align: center;
+}
