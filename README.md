@@ -6,7 +6,9 @@
 
 # Project Description
 
-This is a project about constructing a minimalist version of a GitHub repository page, and it is currently hosted on [Netlify](https://github-repos.netlify.app/).
+This is a project about constructing a minimalist version of a GitHub repository page. The user can provide a GitHub username and get a list of the associated repositories. Users can also get extra information regarding the repository's creation date, the stars, the number of forks, as well as the number of issues for those repositories.
+
+You can check the deployment version on Netlify here: https://github-repos.netlify.app/
 
 
 # Functionalities
