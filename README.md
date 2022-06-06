@@ -13,7 +13,7 @@ You can check the deployment version on Netlify here: https://github-repos.netli
 
 # Functionalities
 
-The user can submit their GitHub username or any other valid GitHub username and retrieve the respective list of repositories for that username. This is achieved via the [GitHub API](https://developer.github.com/v3/repos/#list-repositories-for-a-user). You can have a look at how it works: `https://api.github.com/users/<type-your-username-here>/repos`
+The user can submit their GitHub username or any other valid GitHub username and retrieve the respective list of repositories for that username. This is achieved via the [GitHub API](https://developer.github.com/v3/repos/#list-repositories-for-a-user) functionality- you can have a look at how it works: `https://api.github.com/users/<type-your-username-here>/repos`
 
 Users can also get information about the following repository's pieces of information:
 * date creation of the repo
